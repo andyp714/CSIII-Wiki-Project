@@ -38,7 +38,7 @@ color: white;
 
 .column {
     float: left;
-    height: 75vh;
+    height: 65vh;
 }
 
 .leftcol {
@@ -59,8 +59,8 @@ color: white;
 }
 .row{
     margin-top:3vh;
-    margin-right: 2vw;
-    margin-left: 2vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
 }
 .row:after{
     content: "";
