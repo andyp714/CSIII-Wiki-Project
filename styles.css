@@ -39,6 +39,7 @@ color: white;
 .column {
     float: left;
     height: 65vh;
+    min-height: 400px;
 }
 
 .leftcol {
