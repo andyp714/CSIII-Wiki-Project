@@ -38,7 +38,7 @@ color: white;
 
 .column {
     float: left;
-    height: 65vh;
+    height: 400px;
     min-height: 400px;
 }
 
@@ -67,4 +67,14 @@ color: white;
     content: "";
     display: table;
     clear:both;
+}
+
+table, th, td {
+    margin-top: 3vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 4px solid black;
+    border-collapse: collapse;
+    font-size: 30px;
+    font-family: Verdana;
 }
