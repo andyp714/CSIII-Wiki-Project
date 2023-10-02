@@ -20,6 +20,8 @@ font-size: 17px;
 
 .topnav input[type=text] {
     float: left;
+    max-width: 300px;
+    width: 30%;
     padding: 6px;
     border: none;
     margin-top: 8px;
