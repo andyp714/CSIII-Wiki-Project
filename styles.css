@@ -86,9 +86,13 @@ table, th, td {
     margin-top: 1vh;
     margin-left: 10vw;
     margin-right: 10vw;
-    width: 80%;
     border: 3px solid black;
     border-collapse: collapse;
     font-size: 25px;
     font-family: Verdana;
+}
+
+table{
+    width: 80%;
+    min-width: 800px;
 }
