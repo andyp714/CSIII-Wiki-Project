@@ -1,72 +1,122 @@
+<!-- Flower Box:
+    Author: Andy Pauley
+    Description: A wiki page of Joe Dart, a musician, created for a school assignment
+    Date: Worked on from 9/11/2023 to 10/5/2023
+    Bugs: Search bar and top-nav bar are semi-functional. User can type into search bar, but not search. Top-nav buttons don't bring users to a new page. These features require JavaScript, and I don't know that yet
+    Challenges: Two-column div text and image formatting, website properly scales with browser size & still looks good in smaller windows, semi-functional top nav with search bar (visual concept only), hyperlinked divs, table with images divs & lists inside, played with aesthetics
+    Sources: Consulted W3 Schools for html assistance, Consulted wikipedia and markbass for information on Joe Dart & Vulfpeck (These sources are hyperlinked on the website)
+-->
+
+
+
+
+
 <body>
 <html>
 <head>
+    <!-- Imported style sheet for better organization-->
     <link rel="stylesheet" href="styles.css">
+    <!-- Sets title of website that appears in browser tab-->
     <title>About Joe Dart</title>
 </head>
 
+<!--Sets up the body of the page with no margin so it takes up all the space-->
 <body style="margin: 0%;">
-
+    <!--Sets up a div for the top navigation bar-->
     <div class="topnav" width="100%">
+        <!--Puts in links that are in the top nav, uses classes to get the styling, sets home to active page so it  appears green-->
         <a class="active" href="#home">Home</a>
         <a href="#contact" class="split">Contact</a>
         <a href="#about" class="split">About</a>
+        <!--Puts in a search bar thats in the top nav using type input, the placeholder is the text that appears when no text is inputted-->
         <input type="text" placeholder="Search...">
     </div>
-
+    <!--Sets up a two-column div-->
     <div class="row" style="margin-top: 2vh;">
+        <!--Sets up the left column div with a background color-->
         <div class="column leftcol" style="background-color:#aaa;">
+            <!--Sets up an imageholder div so the image can be sized with the column and  div-->
             <div class="img_holder">
+                <!--Image-->
                 <img src="joedart2.jpeg" alt="">
             </div>
         </div>
+        <!--Sets up the right column div with background color and some padding for text-->
         <div class="column rightcol" style="background-color:#f4f2f2;padding-left: 20px; padding-right: 10px;">
+            <!--Header for title of page with margins, font size, and font changed-->
             <h1 style="margin-top: 1vh;margin-bottom: 0.5vh;font-size: 40px;font-family: Verdana;">JOE DART/</h1>
-            <p style="margin-top: 0px;font-size: 16px; font-family: Verdana;">Thanks to his tasteful chops, funky grooves, rapid finger work, and unbelievable pocket Joe Dart from Vulfpeck is one of the most interesting bassist on the modern scene. <br>Joe Dart first picked up a bass at the age of eight, when his parents suggested that he and his siblings form a family band. The family band never materialized, but Dart stuck with it, and soon developed a love for the instrument, and for the bass-driven funk and soul music of the 60's and 70's. Influenced early-on by players such as Flea, Verdine White, Rocco Prestia and Pino Palladino, Dart found the opportunity to hone his chops and his ear in high school, both in his school's music program and with his regularly gigging band. <sup><a href="https://www.markbass.it/artist/joe-dart/" target="_blank">[source]</a></sup></p></p>
+            <!--Paragraph text with margin, font size and font changed. Uses <br> to have a new line. <sup> and <a> to set up the superscript text hyperlink-->
+            <p style="margin-top: 0px;font-size: 16px; font-family: Verdana;">Thanks to his tasteful chops, funky grooves, rapid finger work, and unbelievable pocket Joe Dart from Vulfpeck is one of the most interesting bassist on the modern scene. <br>Joe Dart first picked up a bass at the age of eight, when his parents suggested that he and his siblings form a family band. The family band never materialized, but Dart stuck with it, and soon developed a love for the instrument, and for the bass-driven funk and soul music of the 60's and 70's. Influenced early-on by players such as Flea, Verdine White, Rocco Prestia and Pino Palladino, Dart found the opportunity to hone his chops and his ear in high school, both in his school's music program and with his regularly gigging band. <sup><a href="https://www.markbass.it/artist/joe-dart/" target="_blank">[source]</a></sup></p>
         </div>
+        <!--Image caption put under and left of  image-->
         <p style="margin-top: 0px;  margin-bottom: 0px; font-size:  12.5px; font-family: Verdana">Joe Dart playing bass</p>
     </div>
-
+    <!--Sets up a two-column div with some top margin for space-->
     <div class="row" style="margin-top: 1vh;">
+        <!--Sets up the right column div with a background color. Right column goes first because it is the bigger div for text, so it goes first in this div to create the flip-flop of image and text.-->
         <div class="column rightcol" style="background-color:#f4f2f2;padding-left: 20px; padding-right: 10px;">
+            <!--Header for subtitle page with margins, font size, and font changed-->
             <h2 style="margin-top: 1vh;margin-bottom: 0.5vh;font-size: 25px;font-family: Verdana;">VULFPECK/</h2>
+            <!--Paragraph text with margin, font size and font changed.<sup> and <a> to set up the superscript text hyperlink. Uses <a> for hyperlink of regular text-->
             <p style="margin-top: 0px;  margin-bottom: 0px; font-size:  16px; font-family: Verdana;">Joe Dart is the bassist for the American funk band <a href="https://www.vulfpeck.com/" target="_blank">Vulfpeck</a>. Joe Dart, Jack Stratton, Theo Katzman, and Woody Goss founded the band in 2011. Over their career, Vulfpeck has released four EPs, six studio album (listed below) and one live album. Vulfpeck publishes their music through their own label titled VULF RECORDS. They are the first band to sell out Madison Square Garden without a manager or backing label. <sup><a href="https://en.wikipedia.org/wiki/Vulfpeck" target="_blank">[source]</a></sup></p>
+            <!--Header for subtitle page with margins, font size, and font changed-->
             <h2 style="margin-top: 0.5vh;margin-bottom: 0.25vh;font-size: 17.5px;font-family: Verdana;">BACKGROUND/</h2>
+            <!--Paragraph text with margin, font size and font changed.<sup> and <a> to set up the superscript text hyperlink Uses <a> for hyperlink of regular text-->
             <p style="margin-top: 0px;  margin-bottom: 0px; font-size:  16px; font-family: Verdana;">The founding band members all attended the University of Michigan's music school. They first collaborated together for a recording at the University of Michigan. Their earliest works, such as <a href="https://www.youtube.com/watch?v=KQRV0c1KXYc&ab_channel=Vulf">Beastly</a>, were realeased on YouTube. <sup><a href="https://en.wikipedia.org/wiki/Vulfpeck" target="_blank">[source]</a></sup></p>
         </div>
+        <!--Sets up the left column div with a background color. Left column goes last this time because it is the smalelr div for imaage, so it goes last in this div to create the flip-flop of image and text.-->
         <div class="column leftcol" style="background-color:#e9e9e9;">
+            <!--Sets up an imageholder div so the image can be sized with the column and  div-->
             <div class="img_holder">
+                <!--Image-->
                 <img src="vulfpeck.jpg" alt="">
             </div>
         </div>
+        <!--Image caption put under and right of image-->
         <p style="margin-top: 0px;  margin-bottom: 0px; font-size:  12.5px; font-family: Verdana; text-align: end;">Joe Dart with Cory Wong & Jack Stratton of Vulfpeck</p>
     </div>
+    <!--Created div to align heading text with rest of divs and to have it scale with window size-->
     <div style="margin-left: 10%; margin-right: 10%; width: 80%; min-width: 900px;">
+        <!--Header for subtitle page with margins, font size, and font changed-->
         <h1 style="margin-top: 1vh;margin-bottom: 0.5vh; margin-top: 0px; font-size: 30px;font-family: Verdana;">DISCOGRAPHY/</h1>
     </div>
+    <!--Sets up a table to have the albums listed-->
     <table>
+        <!--First row of table-->
         <tr>
+            <!--Sets up the columns of the table, each with different sizes-->
             <th style="width: 20%;">Album</th>
             <th style="width: 50%;">Details</th>
             <th style="width: 30%;">Tracklist</th>
         </tr>
+        <!--Second row of table-->
         <tr>
+            <!--First column of row two-->
             <td style="width: 20%;">
+                <!--Creates a div with a hyperlink so that the  image and text housed inside the div are both hyperlinked-->
                 <a href="https://open.spotify.com/album/0LyGgFrZFXpRKpgj664Xu7?si=cwj_NBOtQeO4xnGOp7RZMA" target="_blank"><div class="img_holder" style="padding: 2.5%;">
+                    <!--Image with border-->
                     <img src="thrillofthearts.jpg" alt="" style="border: #7a7a7a 5px solid;">
+                    <!--Album title label-->
                     <h2 style="font-size: 12.5px;font-family: Verdana; margin-top: 2.5%; margin-bottom: 0%;text-align: center;">THRILL OF THE ARTS</h2>
                 </div></a>
             </td>
+            <!--Second column of row two-->
             <td style="width: 50%;">
+                <!--Unnumbered list, makes bullet points-->
                 <ul style="margin-top: 0px;margin-bottom: 0px;">
+                    <!--Bullet points & text-->
                     <li style="font-size: 20px; font-family: Verdana;">Released: October 9, 2015</li>
                     <li style="font-size: 20px; font-family: Verdana;">Label: Vulf Records (VULF2015)</li>
                     <li style="font-size: 20px; font-family: Verdana;">Formats: CD, digital download, streaming, vinyl LP</li>
                     <li style="font-size: 20px; font-family: Verdana;">Debuted at #16 on Billboard R&B Albums Chart</li>
                 </ul>
             </td>
+            <!--Third column of row two-->
             <td style="width: 30%">
+                <!--Ordered list, makes a numbers lists-->
                 <ol style="margin-top: 0px;margin-bottom: 0px;">
+                    <!--list elements & text-->
                     <li style="font-size: 15px; font-family: Verdana;">Welcome to Vulf Records</li>
                     <li style="font-size: 15px; font-family: Verdana;">Back Pocket</li>
                     <li style="font-size: 15px; font-family: Verdana;">Funky Duck</li>
@@ -78,25 +128,35 @@
                     <li style="font-size: 15px; font-family: Verdana;">Smile Meditation</li>
                     <li style="font-size: 15px; font-family: Verdana;">Guided Smile Meditation</li>
                 </ol>
-
             </td>
         </tr>
+        <!--Third row of table-->
         <tr>
+            <!--First column of row three-->
             <td  style="width: 20%;">
+                <!--Creates a div with a hyperlink so that the  image and text housed inside the div are both hyperlinked-->
                 <a href="https://open.spotify.com/album/7sRNEe2FCkTYhrEimChdkC?si=au1SMfqQSu2nHtBftJplGw" target="_blank"><div class="img_holder"   style="padding: 2.5%;">
+                    <!--Image with border-->
                     <img src="thebeautifulgame.jpg" alt="" style="border: #7a7a7a 5px solid;">
+                    <!--Album title label-->
                     <h2 style="font-size: 12.5px;font-family: Verdana; margin-top: 2.5%; margin-bottom: 0%;text-align: center;">THE BEAUTIFUL GAME</h2>
                 </div></a>
             </td  style="width: 20%;">
+            <!--Second column of row three-->
             <td style="width: 50%;">
+                <!--Unnumbered list, makes bullet points-->
                 <ul style="margin-top: 0px;margin-bottom: 0px;">
+                    <!--Bullet points & text-->
                     <li style="font-size: 20px; font-family: Verdana;">Released: October 17, 2016</li>
                     <li style="font-size: 20px; font-family: Verdana;">Label: Vulf Records (VULF2016)</li>
                     <li style="font-size: 20px; font-family: Verdana;">Formats: CD, digital download, streaming, vinyl LP</li>
                 </ul>
             </td>
+            <!--Third column of row three-->
             <td style="width: 30%">
+                <!--Ordered list, makes a numbers lists-->
                 <ol style="margin-top: 0px;margin-bottom: 0px;">
+                    <!--list elements & text-->
                     <li style="font-size: 15px; font-family: Verdana;">The Sweet Science</li>
                     <li style="font-size: 15px; font-family: Verdana;">Animal Spirits</li>
                     <li style="font-size: 15px; font-family: Verdana;">Dean Town</li>
@@ -110,6 +170,7 @@
                 </ol>
             </td>
         </tr>
+        <!--Rest of the table Code is same as previous rows, just with different images & text. Format & code is the exact same, so no need to document all of it-->
         <tr>
             <td  style="width: 20%;">
                 <a href="https://open.spotify.com/album/631tfYWQsACU5Kmk8dpqli?si=RuL3s66qSPOLEQ88vehAaw" target="_blank"><div class="img_holder"   style="padding: 2.5%;">
